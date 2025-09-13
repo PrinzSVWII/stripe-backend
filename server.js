@@ -9,7 +9,7 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Stripe backend is running ✅');
+  res.send('Server is running ✅');
 });
 
 app.post('/create-payment-intent', async (req, res) => {
