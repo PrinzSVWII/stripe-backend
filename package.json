@@ -1,1 +1,1 @@
-{ "name": "stripe-server", "version": "1.0.0", "main": "index.js", "scripts": { "start": "node index.js" }, "dependencies": { "express": "^4.18.2", "dotenv": "^16.3.1", "stripe": "^12.0.0" } }
+{\n  "name": "stripe-server",\n  "version": "1.0.0",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "express": "^4.18.2",\n    "dotenv": "^16.3.1",\n    "stripe": "^12.0.0"\n  }\n}
