@@ -8,7 +8,6 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
 app.use(express.json());
 
-// ✅ Add this GET route here
 app.get('/', (req, res) => {
   res.send('Stripe backend is running ✅');
 });
